@@ -1,0 +1,82 @@
+/*
+Theme Name: Lunch Twenty Twelve
+Description: Child theme for the Twenty Twelve theme 
+Author:
+Template: twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");
+
+body{
+	background-color: #d23906;
+}
+
+body .site {
+	margin-top: 0rem;
+}
+
+.widget-area .widget h3 {
+	margin-bottom: 0.41429rem;
+	font-size: 1.2rem;
+}
+
+.site-content article {
+	margin-bottom: 0.5rem;
+	
+}
+
+.entry-meta{
+	display: none;
+
+}
+
+.entry-header img.wp-post-image {
+	margin-bottom: 0;
+	margin-top: 1rem;
+	width: 600px;
+}
+
+body.full-width {
+	width: 100%;
+	text-align: center;
+}
+
+.entry-header .entry-title {
+	font-size: 2.77143rem;
+}
+
+.after_title, .before_title {
+	clear: both;
+	text-align: center;
+	display: block;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	text-align: center;
+	border-top: medium none;
+	width: 64%
+}
+
+.main-navigation li {
+	font-size: 1.4rem;
+
+}
+
+.main-navigation li a {
+	line-height: 0.5rem; 
+}
+
+.widget.widget_categories {
+	float: right;
+	width: 50%;
+}
+
+.widget.widget_recent_entries {
+	float: left;
+	width: 50%;
+	margin-bottom: 1rem;
+}
+
+.site-info > a {
+	display: none;
+}
